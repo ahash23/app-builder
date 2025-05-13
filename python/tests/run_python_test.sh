@@ -95,6 +95,8 @@ diff-cover coverage.xml --compare-branch=upstream/master   --html-report coverag
 cover_result=$?
 
 
+
+
 echo "--------------------------"
 echo "CI 流水线运行结果如下: "
 echo "单测运行结果: $run_result"
