@@ -24,6 +24,7 @@ import os
 import shutil
 import datetime
 from setuptools import setup, find_packages
+import subprocess
 
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
